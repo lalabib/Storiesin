@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/setting"
+            android:title="@string/btn_setting" />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/btn_logout" />
+    </group>
+    <item android:id="@+id/map"
+        android:title="@string/map"
+        android:icon = "@drawable/ic_map"
+        app:showAsAction="always" />
+</menu>

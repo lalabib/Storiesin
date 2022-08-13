@@ -1,0 +1,44 @@
+Skenario Pengujian:
+
+LoginViewModelTest
+- Ketika melakukan Login data tidak NULL
+- Memastikan Result.isSuccess bernilai true
+
+MainViewModelTest
+- Memastikan data Story tidak NULL
+- Memastikan jumlah data sesuai yang diharapkan
+- Memastikan ukuran data asli dengan data dummy sama
+
+MapsViewModel
+- Memastikan data story tidak NULL
+- Memastikan Result.isSuccess bernilai true
+
+SignUpViewModelTest
+- Ketika melakukan Sign Up data tidak NULL
+- Memastikan Result.isSuccess bernilai true
+
+UploadViewModelTest
+- Ketika menambahkan Story data tidak NULL
+- Memastikan Result.isSuccess bernilai true
+
+
+StoryRepositoryTest
+a.Register
+- Memastikan data tidak NULL
+- Memastikan pesan response sesuai yang diharapkan
+
+b.Login
+- Memastikan data tidak NULL
+- Memastikan pesan response sesuai yang diharapkan
+
+c.Story
+- Memastikan data Story tidak NULL
+- Memastikan jumlah data sesuai yang diharapkan
+
+d.Story With Location
+- Memastikan data tidak NULL
+- Memastikan jumlah data sesuai dengan yang diharapkan
+
+e.Upload
+- Memastikan data tidak NULL
+- Memastikan pesan response sesuai yang diharapkan

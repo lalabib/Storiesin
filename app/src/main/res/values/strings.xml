@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Storiesin</string>
+    <string name="title_home">Home</string>
+    <string name="title_upload">Upload</string>
+    <string name="title_profile">Profile</string>
+    <string name="detail">Detail Stories</string>
+    <string name="Maps">Maps Stories</string>
+    <string name="login_message">Welcome to Stories.in!</string>
+    <string name="signup_message">Please complete your data below!</string>
+    <string name="welcome_message">Storiesin is an application where we can share our story with other people so they can hear about our story</string>
+    <string name="login_text">Already have an account?<font fgcolor="#2196F3"> Log in</font></string>
+    <string name="signup_text">Don\'t have an account?<font fgcolor="#2196F3"> Sign up</font></string>
+    <string name="email_valid">Please enter a valid email address!</string>
+    <string name="password_length">password must contain at least 6 characters</string>
+    <string name="cant_empty">This field can\'t be empty</string>
+    <string name="please_add_image">please enter the image file first</string>
+    <string name="permission">not getting permission</string>
+    <string name="retry">Try Again</string>
+
+    <string name="image_description">image_description</string>
+    <string name="story_image">Image of Story</string>
+    <string name="welcome_logo">welcome logo</string>
+    <string name="fab_description">Add Story</string>
+    <string name="text_title">name</string>
+    <string name="text_desc">description</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="description_hint">description here</string>
+
+    <string name="btn_camera">Camera</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_upload">Upload</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_setting">Setting</string>
+    <string name="map">Maps</string>
+
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+</resources>
