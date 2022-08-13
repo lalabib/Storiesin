@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Storiesin</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_upload">Unggah</string>
+    <string name="title_profile">Profil</string>
+    <string name="detail">Detail Cerita</string>
+    <string name="login_message">Selamat Datang di Stories.in!</string>
+    <string name="signup_message">Silakan lengkapi data Anda di bawah ini!</string>
+    <string name="welcome_message">Storiesin adalah aplikasi dimana kita bisa berbagi cerita kita dengan orang lain agar mereka bisa mendengar cerita kita</string>
+    <string name="login_text">Sudah mempunyai akun?<font fgcolor="#2196F3"> Masuk</font></string>
+    <string name="signup_text">Belum mempunyain akun?<font fgcolor="#2196F3"> Daftar </font></string>
+    <string name="email_valid">silakan isi alamat email dengan tepat!</string>
+    <string name="password_length">kata sandi harus mengandung setidaknya 6 karakter</string>
+    <string name="cant_empty">Kolom ini tidak boleh kosong</string>
+    <string name="please_add_image">silahkan masukkan file gambar terlebih dahulu</string>
+    <string name="permission">tidak mendapatkan izin</string>
+
+    <string name="image_description">deskripsi gambar</string>
+    <string name="fab_description">Tambah ceirta</string>
+    <string name="text_title">nama</string>
+    <string name="text_desc">deskripsi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="description_hint">deskripsi disini</string>
+
+    <string name="btn_camera">Kamera</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="btn_upload">Unggah</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_signup">Daftar</string>
+    <string name="btn_logout">Keluar</string>
+    <string name="btn_setting">Pengaturan</string>
+</resources>
