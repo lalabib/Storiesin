@@ -51,9 +51,7 @@ class UploadViewModel(private val pref: UserPreference) : ViewModel() {
         })
     }
 
-    fun getUser(): LiveData<UserModel> {
-        return pref.getUser().asLiveData()
-    }
+    fun getUser() = pref.getUser().asLiveData()
 
     companion object {
         private const val TAG = "UploadStory"

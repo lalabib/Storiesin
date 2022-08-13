@@ -45,9 +45,7 @@ class MainViewModel(private val pref: UserPreference): ViewModel() {
         })
     }
 
-    fun getUser(): LiveData<UserModel> {
-        return pref.getUser().asLiveData()
-    }
+    fun getUser() = pref.getUser().asLiveData()
 
     fun logout() {
         viewModelScope.launch {
