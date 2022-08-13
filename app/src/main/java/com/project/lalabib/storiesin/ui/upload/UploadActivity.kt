@@ -66,7 +66,8 @@ class UploadActivity : AppCompatActivity() {
 
     private fun setupViewModel() {
         val pref = UserPreference.getInstance(dataStore)
-        uploadViewModel = ViewModelProvider(this, ViewModelFactory(pref))[UploadViewModel::class.java]
+        uploadViewModel =
+            ViewModelProvider(this, ViewModelFactory(pref))[UploadViewModel::class.java]
     }
 
     override fun onRequestPermissionsResult(
@@ -161,8 +162,16 @@ class UploadActivity : AppCompatActivity() {
                 )
                 uploadStory(it.token, imageMultipart, addDesc)
             } else {
-                if (getFile == null) Toast.makeText(this@UploadActivity, R.string.please_add_image, Toast.LENGTH_SHORT).show()
-                if (desc == "") Toast.makeText(this@UploadActivity, R.string.cant_empty, Toast.LENGTH_SHORT).show()
+                if (getFile == null) Toast.makeText(
+                    this@UploadActivity,
+                    R.string.please_add_image,
+                    Toast.LENGTH_SHORT
+                ).show()
+                if (desc == "") Toast.makeText(
+                    this@UploadActivity,
+                    R.string.cant_empty,
+                    Toast.LENGTH_SHORT
+                ).show()
             }
         }
     }
@@ -184,7 +193,7 @@ class UploadActivity : AppCompatActivity() {
 
     private fun showToast() {
         uploadViewModel.txtMsg.observe(this@UploadActivity) {
-            it.getContentIfNotHandled()?.let {  txtMsg ->
+            it.getContentIfNotHandled()?.let { txtMsg ->
                 Toast.makeText(this, txtMsg, Toast.LENGTH_SHORT).show()
             }
         }
