@@ -38,7 +38,6 @@ class StoryRepository(
             val response = apiService.postRegister(name, email, password)
             emit(Result.Success(response))
         } catch (e: Exception) {
-            Log.d("Signup", e.message.toString())
             emit(Result.Error(e.message.toString()))
         }
     }
@@ -49,7 +48,6 @@ class StoryRepository(
             val response = apiService.postLogin(email, password)
             emit(Result.Success(response))
         } catch (e: Exception) {
-            Log.d("Login", e.message.toString())
             emit(Result.Error(e.message.toString()))
         }
     }
@@ -61,7 +59,6 @@ class StoryRepository(
                 val response = apiService.getStory(token, 1, 1, 30)
                 emit(Result.Success(response))
             } catch (e: Exception) {
-                Log.d("Signup", e.message.toString())
                 emit(Result.Error(e.message.toString()))
             }
         }
@@ -76,7 +73,6 @@ class StoryRepository(
             val response = apiService.postStory(token, file, description)
             emit(Result.Success(response))
         } catch (e: Exception) {
-            Log.d("Signup", e.message.toString())
             emit(Result.Error(e.message.toString()))
         }
     }
