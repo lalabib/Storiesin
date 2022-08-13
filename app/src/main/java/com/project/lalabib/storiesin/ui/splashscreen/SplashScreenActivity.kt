@@ -10,7 +10,6 @@ import com.project.lalabib.storiesin.ui.main.MainActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreenActivity : AppCompatActivity() {
-    private val time: Long = 2500
     private val alpha0 = 0f
     private val alpha1 = 1f
     private var propertyAnim: ViewPropertyAnimator? = null
@@ -34,5 +33,9 @@ class SplashScreenActivity : AppCompatActivity() {
     override fun onDestroy() {
         propertyAnim?.cancel()
         super.onDestroy()
+    }
+
+    companion object {
+        private const val time: Long = 2500
     }
 }
